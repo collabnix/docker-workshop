@@ -16,9 +16,9 @@ https://hub.docker.com/_/redis/
 5. some helpful redis commands :
 
 '''
-$ > set "k1" 3
-$ > get "k1"
-$ > incr "k1"
+$ set "k1" 3
+$ get "k1"
+$ incr "k1"
 '''
 
 

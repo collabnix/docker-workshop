@@ -2,6 +2,20 @@
 Lab 09: Docker Networks
 
 ---
+## Challange
+Your challange for this lab is to create a "bridge" network 
+and to connect it between two container : a python app (selaworkshops/python-app:2.0) and "dummy"
+app that can run curl command (can be pulled from "alpine" and than enrich with manual installation of the curl command).
+once the both containers are connected on the same bridge, try to "curl" from the alpine container
+into the python container and get a response.
+
+Think about the following action items :
+1. how to create a network of type "bridge"
+2. how to pull/run a container and attach the netowrk to it
+3. how to pull an "alpine" image , and install curl on it
+(hint : first run it with the -it flag , and than google on how to install curl on alpine)
+4. how to attache the alpine client to the network bridge
+
 
 ## Instructions
 
@@ -45,26 +59,26 @@ $ docker inspect app
                 }
             }
 ```
-
+ - write down the IPAddress of "my-bridge-network" (you may have diffrent address than the above)
  - Open a new terminal windows and run an ubuntu container in interactive mode:
 ```
-$ docker run -it --name client selaworkshops/ubuntu:18.04
+$ docker run -it --name client alpine:latest
 ```
 
  - Install curl in the client container:
 ```
-$ apt-get update
-$ apt-get install curl -y
+$ apk --no-cache add curl  
 ```
 
  - From the client container terminal try to browse to the app container:
+ (change the IP Address accordingly)
 ```
-$ curl 172.21.0.2:8081
+$ curl 172.21.0.2:8081 --connect-timeout 5
 ```
 
- - You have not access, return to the main process:
-```
-$ CTRL + C
+ - You will get no access and the connection will be terminated due to timeout 
+ ```
+$ curl: (28) Connection timed out after 5000 milliseconds
 ```
 
  - From the regular terminal run the command below to attach the client container to the created network:
@@ -73,8 +87,9 @@ $ docker network connect my-bridge-network client
 ```
 
  - From the client container terminal try to browse to the app container again:
+ (change the IP Address accordingly)
 ```
-$ curl 172.21.0.2:8081
+$ curl 172.21.0.2:8081 --connect-timeout 5
 ```
 ```
 <h1>Python App</h1>

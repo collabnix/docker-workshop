@@ -1,5 +1,5 @@
 # Docker Workshop
-Challange 1 : install and interact with Redis 
+Challange 01 : install and interact with Redis 
 
 ---
 

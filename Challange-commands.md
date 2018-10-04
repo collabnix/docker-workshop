@@ -14,11 +14,11 @@ https://hub.docker.com/_/redis/
 
 5. some helpful redis commands :
 
-'''
+```
 $ > set "k1" 3
 $ > get "k1"
 $ > incr "k1"
-'''
+```
 
 
 6. Hint : it is always a good practice to read the Docker-hub documentation on how to use the container effectively!

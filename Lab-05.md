@@ -3,6 +3,10 @@ Lab 05: Building your first image
 
 ---
 
+## Task
+1. For warm-up, follow the instructions Step-By-Step
+2. Think you're tought ? move on to Challange 3
+
 ## Preparations
 
  - Clean your docker host using the commands (in bash):
@@ -10,10 +14,6 @@ Lab 05: Building your first image
 ```
 $ docker rm -f $(docker ps -a -q)
 ```
-
-## Task
-1. For warm-up, follow the instructions Step-By-Step
-2. Think you're tought ? move on to Challange 3
 
 ## Instructions
 

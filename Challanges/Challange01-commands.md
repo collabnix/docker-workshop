@@ -1,13 +1,12 @@
 # Docker Workshop
-Challange 02 : Run Nginx container with mount to local folder 
+Challange 01 : install and interact with Redis 
 
 ---
 
 
 ## Instructions
 
- 1. in this challange you are required to run an nginx web server.
- 2. nginx usually runs on port 8080
+ 1. in this challange you are required to run a redis docker image.
  2. recall that Redis is combined of the redis server and a CLI tool that ships with the redis binaries.
  3. your goal is to add several keys to redis and use a small program that prints those values.
  4. you can use the Docker Hub Redis Readme that has all the instructions needed for this task :
@@ -16,9 +15,9 @@ https://hub.docker.com/_/redis/
 5. some helpful redis commands :
 
 ```
-$> set "k1" 3
-$> get "k1"
-$> incr "k1"
+$ > set "k1" 3
+$ > get "k1"
+$ > incr "k1"
 ```
 
 

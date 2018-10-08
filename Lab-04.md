@@ -2,21 +2,19 @@
 Lab 04: Updating and Sharing Containers
 
 ---
-
-## Preparations
-
- - Clean your docker host using the commands (in bash):
-
-```
-$ docker rm -f $(docker ps -a -q)
-```
-```
-$ docker rmi -f $(docker images -a -q)
-```
-
+## Task
+1. Your task, should you choose to accept it, involves running the image selaworkshops/npm-static-app:3.0
+in a container on port 5000
+2. You than need to add a txt file inside the container working directory. The content of the file is not important.
+(echo "some file" > myFile.txt)
+3. Commit your changes and create another images called selaworkshops/npm-static-app:3.1
+4. Delete the previous container + image and re-run your version (selaworkshops/npm-static-app:3.1). 
+make sure the file you have created exists.
+5. Save your image as file with a .tar extension (static-app-3.1.tar)
+6. Test that your saved images can be loaded.
 
 
-## Docker Commit
+## Instructions (Docker Commit)
 
  - Run the application (version 3.0) in a Docker container (detached mode) in the port 5000 using:
 ```

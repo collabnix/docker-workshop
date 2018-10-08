@@ -4,7 +4,6 @@ docker pull hello-world
 docker pull nginx
 docker pull selaworkshops/npm-static-app:latest
 docker pull selaworkshops/npm-static-app:3.0
-docker pull selaworkshops/npm-static-app:3.1
 docker pull selaworkshops/alpine:3.4
 docker pull selaworkshops/python-app:1.0
 docker pull selaworkshops/python-app:2.0

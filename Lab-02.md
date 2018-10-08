@@ -11,7 +11,11 @@ Lab 02: Basic commands
 $ docker rm -f $(docker ps -a -q)
 ```
 
-
+## Task
+1. You have to run a web app called selaworkshops/npm-static-app, take its latest tag
+and run it on the same port that the developer has created (3000)
+2. clean your environment (the running containers) and re-run a diffrent version, this time 
+map the application port (3000) to port 80 on your host.
 
 ## Instructions
 
@@ -44,4 +48,10 @@ $ docker rm -f static-app
  - Check the running containers:
 ```
 $ docker ps
+```
+
+- To run the same container on port 80 use :
+
+```
+$ docker run -d -p 80:3000 --name static-app selaworkshops/npm-static-app:latest
 ```

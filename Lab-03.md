@@ -3,6 +3,14 @@ Lab 03: Running commands inside the container
 
 ---
 
+## Task
+
+1. Run the same application from previous lab in detach mode (selaworkshops/npm-static-app)
+2. Attach to the container
+3. what happens when you exit (CTRL + C ) from the attach proceess ? does the container still runs ?
+4. Re-Run the container, and enter its terminal (bin/bash) 
+5. list all the files and print the current directory.
+
 
 ## Instructions
 

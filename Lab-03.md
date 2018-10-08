@@ -10,7 +10,7 @@ Lab 03: Running commands inside the container
 3. what happens when you exit (CTRL + C ) from the attach proceess ? does the container still runs ?
 4. Re-Run the container, and enter its terminal (bin/bash) 
 5. list all the files and print the current directory
-6. Challange -> Change the company name from "Company" to your name
+6. **Challange** -> Change the company name from "Company" to your name
 
 
 ## Instructions

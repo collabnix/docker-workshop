@@ -5,7 +5,9 @@ Lab 05: Building your first image
 
 ## Task
 1. For warm-up, follow the instructions Step-By-Step
-2. Think you're tought ? move on to Challange 3
+2. Think you're tought ? move on to Challange 2 :
+https://github.com/tshaiman/docker-workshop/blob/master/Challanges/Challange02-Dockerfile.md
+
 
 ## Preparations
 

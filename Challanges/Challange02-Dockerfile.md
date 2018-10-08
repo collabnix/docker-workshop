@@ -1,5 +1,5 @@
 # Docker Workshop
-Challange 03 : Run your own Hello-World in docker
+Challange 02 : Run your own Hello-World in docker
 
 ---
 ## Instructions

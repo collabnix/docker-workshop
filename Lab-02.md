@@ -5,13 +5,10 @@ Lab 02: Basic commands
 
 ## Preparations
 
- - Clean your docker host using the commands (in bash):
+ - Clean any running containers:
  
 ```
 $ docker rm -f $(docker ps -a -q)
-```
-```
-$ docker rmi -f $(docker images -a -q)
 ```
 
 

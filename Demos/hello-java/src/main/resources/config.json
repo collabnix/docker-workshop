@@ -1,0 +1,5 @@
+{
+  "user":"dbuser",
+  "pass":"1234567",
+  "connectionString" :"redis://my-connection-string:6379"
+}

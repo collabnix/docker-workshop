@@ -10,10 +10,6 @@ Lab 05: Building your first image
 ```
 $ docker rm -f $(docker ps -a -q)
 ```
-```
-$ docker rmi -f $(docker images -a -q)
-```
-
 
 
 ## Instructions

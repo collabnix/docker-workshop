@@ -1,5 +1,5 @@
 # Docker Workshop
-Challange 02 : Run Nginx container with mount to local folder 
+Challange 08 : Run Nginx container with mount to local folder 
 
 ---
 

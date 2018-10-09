@@ -8,7 +8,7 @@ microservice architecture running python as a backend, php as front-end and Redi
 
 we are going to build the following system :
 
-![alt text](https://raw.githubusercontent.com/tshaiman/docker-workshop/master/Challanges/challange10-composer/diagram.png)
+![alt text](https://raw.githubusercontent.com/tshaiman/docker-workshop/master/Challanges/challange10-composer/diagram2.png)
 
 
 ## Instructions

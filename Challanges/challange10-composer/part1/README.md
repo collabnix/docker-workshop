@@ -1,4 +1,4 @@
-# Link Extractor: Step 1
+# Link Extractor
 
 A web application to extract links and anchor texts from a given web page and analyze link statistics.
 

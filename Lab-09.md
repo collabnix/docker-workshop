@@ -4,17 +4,20 @@ Lab 09: Docker Networks
 ---
 ## Challange
 Your challange for this lab is to create a "bridge" network 
-and to connect it between two container : a python app (selaworkshops/python-app:2.0) and "dummy"
-app that can run curl command (can be pulled from "alpine" and than enrich with manual installation of the curl command).
+and to connect it between two container : 
+a python app (selaworkshops/python-app:2.0) - it runs defaulty on port 5000 , you can inject new port by -e "port=8001"
+and "dummy" app that can run curl command (can be pulled from "alpine" and than 
+be enriched with manual installation of the curl command e.g "apk add curl" ).
 once the both containers are connected on the same bridge, try to "curl" from the alpine container
 into the python container and get a response.
 
 Think about the following action items :
 1. how to create a network of type "bridge"
-2. how to pull/run a container and attach the netowrk to it
-3. how to pull an "alpine" image , and install curl on it
+2. use 'apk add curl' from within the alpine image
+3. how to pull/run a container and attach the netowrk to it
+4. how to pull an "alpine" image , and install curl on it
 (hint : first run it with the -it flag , and than google on how to install curl on alpine)
-4. how to attache the alpine client to the network bridge
+5. how to attach the alpine client to the network bridge
 
 
 ## Instructions

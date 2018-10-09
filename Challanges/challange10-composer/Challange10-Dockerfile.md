@@ -47,9 +47,9 @@ https://github.com/tshaiman/docker-workshop/tree/master/Challanges/challange10-c
   8. Open Your web browser at localhost:80 and interact with the same service using the UI !
 
 
-### Part2 - Building the Link Extractor + UI Servers (No Redis)
+### Part2 - Building the Link Extractor + UI Servers (With Redis)
 1. Go to Challange10/Part2
-https://github.com/tshaiman/docker-workshop/tree/master/Challanges/challange10-composer/part1
+https://github.com/tshaiman/docker-workshop/tree/master/Challanges/challange10-composer/part2
  and examine the folder /api which is written in python
  
  2. Changes to Previous Step :

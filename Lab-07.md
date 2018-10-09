@@ -10,10 +10,6 @@ Lab 07: Managing Containers
 ```
 $ docker rm -f $(docker ps -a -q)
 ```
-```
-$ docker rmi -f $(docker images -a -q)
-```
-
 
 ## Instructions
 

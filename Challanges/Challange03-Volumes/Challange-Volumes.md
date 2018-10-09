@@ -20,3 +20,11 @@ Challange 02 : Run Nginx container with mount to local folder
 /usr/share/nginx/html
 
 6. hint : you can use $(pwd) to get the current directory where you run from.
+
+
+
+## Solution
+
+```
+docker run -d --name "test-nginx" -p 8080:80 -v $(pwd):/usr/share/nginx/html nginx
+```

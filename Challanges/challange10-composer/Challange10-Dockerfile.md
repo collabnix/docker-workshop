@@ -8,9 +8,7 @@ microservice architecture running python as a backend, php as front-end and Redi
 
 we are going to build the following system :
 
-
-Note : the original article of this lab + the source code are taken from 
-https://training.play-with-docker.com/microservice-orchestration/
+![alt text](https://raw.githubusercontent.com/tshaiman/docker-workshop/master/Challanges/challange10-composer/diagram.png)
 
 
 ## Instructions

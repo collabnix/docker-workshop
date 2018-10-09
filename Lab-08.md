@@ -2,7 +2,6 @@
 Lab 08: Using Volumes
 
 ---
-
 ## Preparations
 
  - Clean your docker host using the commands :
@@ -14,6 +13,14 @@ $ docker rm -f $(docker ps -a -q)
 ```
 $ docker volume rm $(docker volume ls -q)
 ```
+
+## Task 
+
+1. The Task for this lab is to create a volume, call it my_volume.
+2. you should than run a simple an thin container and attach a volume to it.
+use the image selaworkshops/busybox:latest and use any name to the mounted volume directory (e.g : data)
+3. change something in the volume folder , e.g : add a file with some content.
+4. create a second volume mounted to the same volume , make sure the file you created in step 3 exists !
 
 
 ## Instructions
@@ -54,7 +61,7 @@ $ docker run -it -v my-volume:/data --name my-container selaworkshops/busybox:la
  - Create a new file under /data:
 ```
 $ cd /data
-$ touch new-file
+$ echo "hello" > hello.txt
 $ ls
 ```
 

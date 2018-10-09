@@ -2,6 +2,17 @@
 Challange 10 : Build a microservice architecture with Docker Compose!
 
 ---
+## Task
+In this Lab we are going to combine all what we have learned so far into a running 
+microservice architecture running python as a backend, php as front-end and Redis as Cache latyer.
+
+we are going to build the following system :
+
+
+Note : the original article of this lab + the source code are taken from 
+https://training.play-with-docker.com/microservice-orchestration/
+
+
 ## Instructions
 
  1. Choose your prefered technology (Node.js/Java/python)

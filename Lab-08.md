@@ -10,9 +10,7 @@ Lab 08: Using Volumes
 ```
 $ docker rm -f $(docker ps -a -q)
 ```
-```
-$ docker rmi -f $(docker images -a -q)
-```
+
 ```
 $ docker volume rm $(docker volume ls -q)
 ```
@@ -20,7 +18,7 @@ $ docker volume rm $(docker volume ls -q)
 
 ## Instructions
 
- - Display existent volumes:
+ - Display existing volumes:
 ```
 $ docker volume ls
 ```

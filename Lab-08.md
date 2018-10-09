@@ -5,7 +5,7 @@ Lab 08: Using Volumes
 
 ## Preparations
 
- - Clean your docker host using the commands (in bash):
+ - Clean your docker host using the commands :
 
 ```
 $ docker rm -f $(docker ps -a -q)

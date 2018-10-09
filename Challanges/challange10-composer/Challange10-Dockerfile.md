@@ -8,22 +8,16 @@ microservice architecture running python as a backend, php as front-end and Redi
 
 we are going to build the following system :
 
-![alt text](https://raw.githubusercontent.com/tshaiman/docker-workshop/master/Challanges/challange10-composer/diagram2.png)
+![alt text](https://raw.githubusercontent.com/tshaiman/docker-workshop/master/Challanges/challange10-composer/link_extractor_diagram.png)
 
 
-## Instructions
+## Instructions 
 
- 1. Choose your prefered technology (Node.js/Java/python)
- and write the simplest Hello World app.
- 
+### Building the Link Extractor Server (python)
+ 1. Go to Challange10/Step1 and examine the folder /api which is written in python
+ 2. look at linkextractor.py and main.py to get a general idea on how the app is running :
+  - the main method uses the linkextractor.py module to scan Html pages and extract <a href> tags
+  - the main file uses flask web framework that operates on port 5000 by default 
+  - once the server is running any call to it using 'curl localhost:5000/api/<url> will extract links from that url
 
- 2. You can write it to a console or (preferebly) as Web Service on some port.
-
- 3. Compose your Docker file , build it and run your container from the docker image you have created.
-
- 4. Hint : use the most minimal base images recommended :
-
- ```
- FROM node:8
- FROM openjdk:8-jre-alpine
- ```
+  3. build a container image for that python service , test it and run it.

@@ -15,9 +15,7 @@ Think about the following action items :
 1. how to create a network of type "bridge"
 2. use 'apk add curl' from within the alpine image
 3. how to pull/run a container and attach the netowrk to it
-4. how to pull an "alpine" image , and install curl on it
-(hint : first run it with the -it flag , and than google on how to install curl on alpine)
-5. how to attach the alpine client to the network bridge
+4. how to attach the alpine client to the network bridge
 
 
 ## Instructions

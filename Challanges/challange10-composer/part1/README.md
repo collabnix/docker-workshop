@@ -8,6 +8,5 @@ A web application to extract links and anchor texts from a given web page and an
 $ docker-compose up --build
 ```
 
-Open http://localhost/?url=http%3A%2F%2Fodu.edu%2F in a web browser.
 
 Press `Ctrl + C` to terminate the service.

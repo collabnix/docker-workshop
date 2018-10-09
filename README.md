@@ -17,9 +17,6 @@ Docker is making history in the software world. Containers integrate into every 
  - 1 Day
 
 ## Prerequisites
-
- - Basic Computers Knowledge
- - Understanding Virtualization
  - Basic Linux Shell Commands
  
 ## Intended Audience
